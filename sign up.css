@@ -1,0 +1,114 @@
+body{
+    
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(./image/bg\ p2.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+main form{
+    width: 30%;
+    background-color:rgba(92, 115, 142, 0.543);
+    padding: 20px;
+    border-radius: 15px;
+}
+#fname,#lname,#email,#mobile{
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+#dob{
+    
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+#male,#female{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* height: 10vh; */
+    color: white;
+
+}
+#pass,#pass1{
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    font-size: 1.9ch;
+    align-items: center;
+    padding: 0%;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px 0px;  
+    margin-bottom: 10px;
+    background-color: rgb(17, 233, 165);
+    color: darkblue;
+}
+button:hover{
+    background-color:rgb(19, 194, 83);
+}
+#cuser{
+    position: relative;
+}
+.fa-solid.fa-user{
+    color: brown;
+    position: absolute;
+    color: black;
+    top: 18%;
+    left: 2%;
+}
+#luser{
+    position: relative;
+}
+.fa-solid.fa-user{
+    position: absolute;
+    color: black;
+    top: 18%;
+    left: 2%;
+
+}
+#euser{
+    position: relative;
+}
+.fa-solid.fa-envelope
+{
+    position: absolute;
+    color: black;
+    top: 18%;
+    left: 2%;
+}
+#muser{
+    position: relative;
+}
+.fa-solid.fa-mobile{
+    position: absolute;
+    color: black;
+    top: 18%;
+    left: 2%;
+}
